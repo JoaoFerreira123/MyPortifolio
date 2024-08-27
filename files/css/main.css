@@ -1,31 +1,52 @@
-body{
-	background-color:#F8F8F8!important;
+body {
+    background-color: #F8F8F8 !important;
 }
 
-#profile-wrapper{
-	text-align: center;
+.container {
+    max-width: 1200px; /* Limita a largura da container para centralizar o conteúdo */
 }
 
-#profile-pic{
-	width:150px;
-	height: 150px;
-	border-radius: 50%;
-	margin-left: auto;
-  	margin-right: auto;
+#profile-wrapper {
+    text-align: center;
 }
 
-ul{
-	padding: 0;
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    padding: 0;
     list-style-type: none;
 }
 
-
-.social-links ul, li{
-	list-style-type:none;
-	display: inline-block;
+.social-links ul, 
+.social-links li {
+    list-style-type: none;
+    display: inline-block;
 }
 
-.social{
-	width:20px;
-	height: 20px;
+.social {
+    width: 20px;
+    height: 20px;
+}
+
+.card {
+    margin-bottom: 1.5rem; /* Adiciona espaçamento entre os cards */
+}
+
+.col-md-9 {
+    margin: 0 auto; /* Centraliza o card dentro da coluna */
+}
+
+.row {
+    margin-left: -15px; /* Remove a margem negativa da linha */
+    margin-right: -15px; /* Remove a margem negativa da linha */
+}
+
+.card-body {
+    padding: 1.5rem; /* Adiciona padding aos cards para melhor espaçamento */
 }
